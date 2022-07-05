@@ -1,29 +1,46 @@
 {
-  "name": "wedding_invitation",
-  "version": "0.1.0",
-  "private": true,
+  "name": "wedding-invitation",
+  "version": "1.0.1",
+  "description": "Seonggu Kim🤵 ❤ Yeji Lee👰 Wedding Invitation💌",
+  "main": "index.js",
+  "repository": "https://github.com/sdkfile/wedding_invitation.git",
+  "author": "Seonggu Kim <seonggu.de.kim@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@types/react-copy-to-clipboard": "^5.0.1",
+    "@types/react-image-gallery": "^1.0.4",
+    "@types/styled-components": "^5.1.13",
+    "antd": "^4.16.13",
     "gh-pages": "^4.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "^17.0.2",
+    "react-image-gallery": "^1.2.7",
+    "styled-components": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.9",
+    "@types/webpack": "^5.28.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.5",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"predeploy": "react-scripts build",
-	"deploy": "gh-pages -d build"
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
