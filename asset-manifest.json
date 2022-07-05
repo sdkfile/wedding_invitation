@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/wedding_invitation/static/css/main.073c9b0a.css",
-    "main.js": "/wedding_invitation/static/js/main.1bb5c9f8.js",
-    "static/js/787.9b74c651.chunk.js": "/wedding_invitation/static/js/787.9b74c651.chunk.js",
-    "static/media/logo.svg": "/wedding_invitation/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/wedding_invitation/static/css/main.709b8ec5.css",
+    "main.js": "/wedding_invitation/static/js/main.2503ca42.js",
+    "static/media/BackgroundVideo.mp4": "/wedding_invitation/static/media/BackgroundVideo.bea7a786473c7d02baa9.mp4",
+    "static/media/Gallery_Photo_1.png": "/wedding_invitation/static/media/Gallery_Photo_1.6cc935afe301af47d5f0.png",
+    "static/media/Gallery_Photo_6.png": "/wedding_invitation/static/media/Gallery_Photo_6.0806ef8d008061ea1e9c.png",
+    "static/media/Gallery_Photo_4.png": "/wedding_invitation/static/media/Gallery_Photo_4.c4d5e380f97dca936979.png",
+    "static/media/Gallery_Photo_2.png": "/wedding_invitation/static/media/Gallery_Photo_2.4802d9bf2b80ab7091c7.png",
+    "static/media/LocationMap.png": "/wedding_invitation/static/media/LocationMap.8c8fb4ad74dfcbabbb82.png",
+    "static/media/Gallery_Photo_3.png": "/wedding_invitation/static/media/Gallery_Photo_3.6b21a6d82b3bd2e8086f.png",
+    "static/media/Gallery_Photo_5.png": "/wedding_invitation/static/media/Gallery_Photo_5.35bfdd4a27da0bb9af41.png",
+    "static/media/GroovePaper.png": "/wedding_invitation/static/media/GroovePaper.33326b07913fac2781bb.png",
     "index.html": "/wedding_invitation/index.html",
-    "main.073c9b0a.css.map": "/wedding_invitation/static/css/main.073c9b0a.css.map",
-    "main.1bb5c9f8.js.map": "/wedding_invitation/static/js/main.1bb5c9f8.js.map",
-    "787.9b74c651.chunk.js.map": "/wedding_invitation/static/js/787.9b74c651.chunk.js.map"
+    "main.709b8ec5.css.map": "/wedding_invitation/static/css/main.709b8ec5.css.map",
+    "main.2503ca42.js.map": "/wedding_invitation/static/js/main.2503ca42.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1bb5c9f8.js"
+    "static/css/main.709b8ec5.css",
+    "static/js/main.2503ca42.js"
   ]
 }
