@@ -19,7 +19,7 @@ const App = () => {
       <Gallery />
       <Location />
       <CongratulatoryMoney />
-      {/*<Share />*/}
+      <Share />
       <Footer
         style={{
           background: '#D7CCC8',
