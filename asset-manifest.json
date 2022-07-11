@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding_invitation/static/css/main.709b8ec5.css",
-    "main.js": "/wedding_invitation/static/js/main.e6dfb93e.js",
+    "main.css": "/wedding_invitation/static/css/main.2ce0e260.css",
+    "main.js": "/wedding_invitation/static/js/main.47ada0ac.js",
     "static/media/BackgroundVideo.mp4": "/wedding_invitation/static/media/BackgroundVideo.74a8a909e47255a7a4c9.mp4",
     "static/media/Gallery_Photo_4.jpg": "/wedding_invitation/static/media/Gallery_Photo_4.de921c509ed625fae1c2.jpg",
     "static/media/Gallery_Photo_3.jpg": "/wedding_invitation/static/media/Gallery_Photo_3.2bebe97c05b109787544.jpg",
@@ -9,14 +9,13 @@
     "static/media/Gallery_Photo_6.jpg": "/wedding_invitation/static/media/Gallery_Photo_6.fd0a58fb8e03a5078385.jpg",
     "static/media/Gallery_Photo_5.jpg": "/wedding_invitation/static/media/Gallery_Photo_5.f4bf2c7fcb74c251787e.jpg",
     "static/media/Gallery_Photo_2.jpg": "/wedding_invitation/static/media/Gallery_Photo_2.2196c817d7518831f01c.jpg",
-    "static/media/LocationMap.png": "/wedding_invitation/static/media/LocationMap.8c8fb4ad74dfcbabbb82.png",
     "static/media/GroovePaper.png": "/wedding_invitation/static/media/GroovePaper.33326b07913fac2781bb.png",
     "index.html": "/wedding_invitation/index.html",
-    "main.709b8ec5.css.map": "/wedding_invitation/static/css/main.709b8ec5.css.map",
-    "main.e6dfb93e.js.map": "/wedding_invitation/static/js/main.e6dfb93e.js.map"
+    "main.2ce0e260.css.map": "/wedding_invitation/static/css/main.2ce0e260.css.map",
+    "main.47ada0ac.js.map": "/wedding_invitation/static/js/main.47ada0ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.709b8ec5.css",
-    "static/js/main.e6dfb93e.js"
+    "static/css/main.2ce0e260.css",
+    "static/js/main.47ada0ac.js"
   ]
 }
