@@ -18,7 +18,6 @@ import {
   BRIDE_MOTHER_ACCOUNT_NUMBER,
 } from '../Config';
 import GroovePaper from '../Assets/GroovePaper.png';
-import KakaoPay from '../Assets/btn_send_tiny.png'
 
 const Wrapper = styled.div`
   background: #efebe9 url(${GroovePaper});
@@ -132,9 +131,6 @@ const CongratulatoryMoney = () => {
               {GROOM_ACCOUNT_NUMBER}
             </Button>
           </CopyToClipboard>
-          <a href="http://kko.to/Kis4M4LQS/">
-            <img className="img-pay" src={KakaoPay} alt="kakaopay"/>
-          </a>
         </div>
       </Modal>
       <Modal

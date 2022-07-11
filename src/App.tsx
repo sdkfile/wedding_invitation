@@ -16,6 +16,7 @@ declare global {
         kakao: any;
     }
 }
+
 const App = () => {
   return (
     <>
