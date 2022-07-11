@@ -34,7 +34,7 @@ export default function KakaoMapScript() {
 
             // 인포윈도우로 장소에 대한 설명을 표시합니다
             const infowindow = new kakao.maps.InfoWindow({
-                content: '<div style="width:150px;text-align:center;padding:6px 0;">로얄호텔 서울</div>'
+                content: `<div style="width:150px;text-align:center;padding:6px 0;"><a href="https://place.map.kakao.com/24633671">로얄호텔 서울</a></div>`
             });
             infowindow.open(map, marker);
 
@@ -42,8 +42,6 @@ export default function KakaoMapScript() {
             map.setCenter(coords);
         }
     });
-    //드래그 막기
-    map.setDraggable(false);
     //줌 막기
     map.setZoomable(false);
 }

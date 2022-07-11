@@ -19,7 +19,7 @@ const TitleWrapper = styled.div`
   transform: translate(-50%, -50%);
   text-align: center;
   text-shadow: -1px 0 #9e9e9e, 0 1px #9e9e9e, 1px 0 #9e9e9e, 0 -1px #9e9e9e;
-  animation: fadein 3s;
+  animation: fadein 2s;
   -moz-animation: fadein 3s; /* Firefox */
   -webkit-animation: fadein 3s; /* Safari and Chrome */
   -o-animation: fadein 3s; /* Opera */
