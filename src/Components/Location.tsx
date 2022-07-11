@@ -3,7 +3,6 @@ import { Divider } from 'antd';
 import styled from 'styled-components';
 import Map from './Map'
 import GroovePaper from '../Assets/GroovePaper.png';
-import LocationMap from '../Assets/LocationMap.png';
 
 const Wrapper = styled.div`
   background: #efebe9;
@@ -22,10 +21,10 @@ const Title = styled.p`
   margin-bottom: 0;
 `;
 
-const Image = styled.img`
-  width: 75%;
-  max-width: 1024px;
-`;
+// const Map = styled.div`
+//   width: 75%;
+//   max-width: 1024px;
+// `;
 
 const Location = () => {
   return (
@@ -33,8 +32,8 @@ const Location = () => {
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>오시는 길</Title>
       </Divider>
-      <Image src={LocationMap} />
-        <Map/>
+      {/*<Image src={LocationMap} />*/}
+      <Map/>
     </Wrapper>
   );
 };
