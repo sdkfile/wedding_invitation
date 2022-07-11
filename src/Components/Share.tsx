@@ -12,12 +12,6 @@ import {
 } from '../Config';
 import GroovePaper from '../Assets/GroovePaper.png';
 
-declare global {
-  interface Window {
-    Kakao: any;
-  }
-}
-
 const Wrapper = styled.div`
   background: #efebe9 url(${GroovePaper});
   padding-left: 42px;
@@ -70,8 +64,9 @@ const Share = () => {
   const [shareCount, setShareCount] = React.useState<number>(0);
 
   React.useEffect(() => {
+    const {Kakao} = window;
     if (shareCount !== 0) {
-      window.Kakao.Link.createDefaultButton({
+      Kakao.Link.createDefaultButton({
         objectType: 'feed',
         container: '#sendKakao',
         content: {

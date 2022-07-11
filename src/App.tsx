@@ -10,7 +10,12 @@ import Share from './Components/Share';
 import GroovePaper from './Assets/GroovePaper.png';
 
 const { Footer } = Layout;
-
+declare global {
+    interface Window {
+        Kakao: any;
+        kakao: any;
+    }
+}
 const App = () => {
   return (
     <>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Divider } from 'antd';
 import styled from 'styled-components';
+import Map from './Map'
 import GroovePaper from '../Assets/GroovePaper.png';
 import LocationMap from '../Assets/LocationMap.png';
 
@@ -33,6 +34,7 @@ const Location = () => {
         <Title>오시는 길</Title>
       </Divider>
       <Image src={LocationMap} />
+        <Map/>
     </Wrapper>
   );
 };
