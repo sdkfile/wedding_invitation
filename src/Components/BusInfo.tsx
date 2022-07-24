@@ -29,21 +29,21 @@ export default function BusInfo() {
           <tbody>
           <tr>
             <FieldLabel>간선</FieldLabel>
-            <TableCell>&nbsp;&nbsp;470, 472, 741, N37</TableCell>
+            <TableCell>470, 472, 741, N37</TableCell>
           </tr>
           <tr>
             <FieldLabel>직행</FieldLabel>
-            <TableCell>&nbsp;&nbsp;1150, 3201, 4108, 5000A, 5000B, 5005, 5007, 5500-2, 8100, 8800, 9000, 9000-1,
+            <TableCell>1150, 3201, 4108, 5000A, 5000B, 5005, 5007, 5500-2, 8100, 8800, 9000, 9000-1,
               9003, 9200, 9300, G8110
             </TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">광역</FieldLabel>
-            <TableCell>&nbsp;&nbsp;9401, M4101, M4102, M4108, M4130, M4137, M5107, M5115, M5121</TableCell>
+            <TableCell>9401, M4101, M4102, M4108, M4130, M4137, M5107, M5115, M5121</TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">순환</FieldLabel>
-            <TableCell>&nbsp;&nbsp;03</TableCell>
+            <TableCell>03</TableCell>
           </tr>
           </tbody>
         </TableBus>
@@ -59,11 +59,11 @@ export default function BusInfo() {
           <tbody>
           <tr>
             <FieldLabel className="FieldLabel">직행</FieldLabel>
-            <TableCell>&nbsp;&nbsp;1150, 5000A, 5000B, 5005, 5007, 8100, 9003, 9300</TableCell>
+            <TableCell>1150, 5000A, 5000B, 5005, 5007, 8100, 9003, 9300</TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">광역</FieldLabel>
-            <TableCell>&nbsp;&nbsp;M4101, M4102</TableCell>
+            <TableCell>M4101, M4102</TableCell>
           </tr>
           </tbody>
         </TableBus>
@@ -79,19 +79,19 @@ export default function BusInfo() {
           <tbody>
           <tr>
             <FieldLabel className="FieldLabel">간선</FieldLabel>
-            <TableCell>&nbsp;&nbsp;140, 470, 472, 741, N37</TableCell>
+            <TableCell>140, 470, 472, 741, N37</TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">직행</FieldLabel>
-            <TableCell>&nbsp;&nbsp;3201, 4108, 5500-2, 8800, 9000, 9000-1, 9200, G8110</TableCell>
+            <TableCell>3201, 4108, 5500-2, 8800, 9000, 9000-1, 9200, G8110</TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">광역</FieldLabel>
-            <TableCell>&nbsp;&nbsp;9401, M4108, M4130, M4137, M5107, M5115, M5121</TableCell>
+            <TableCell>9401, M4108, M4130, M4137, M5107, M5115, M5121</TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">순환</FieldLabel>
-            <TableCell>&nbsp;&nbsp;03</TableCell>
+            <TableCell>03</TableCell>
           </tr>
           </tbody>
         </TableBus>
@@ -109,11 +109,11 @@ export default function BusInfo() {
           <tbody>
           <tr>
             <FieldLabel className="FieldLabel">간선</FieldLabel>
-            <TableCell>&nbsp;&nbsp;100, 105, 152, 202, 261, 472, N30</TableCell>
+            <TableCell>100, 105, 152, 202, 261, 472, N30</TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">순환</FieldLabel>
-            <TableCell>&nbsp;&nbsp;01B</TableCell>
+            <TableCell>01B</TableCell>
           </tr>
           </tbody>
         </TableBus>
@@ -129,13 +129,13 @@ export default function BusInfo() {
           <tbody>
           <tr>
             <FieldLabel className="FieldLabel">직행</FieldLabel>
-            <TableCell>&nbsp;&nbsp;1150, 3201, 4108, 5000A, 5000B, 5005, 5007, 5500-2, 8100, 8800, 9000,
+            <TableCell>1150, 3201, 4108, 5000A, 5000B, 5005, 5007, 5500-2, 8100, 8800, 9000,
               9000-1, 9003, 9200, 9300, 9301
             </TableCell>
           </tr>
           <tr>
             <FieldLabel className="FieldLabel">광역</FieldLabel>
-            <TableCell>&nbsp;&nbsp;9401, M4101, M4102, M4108, M4130, M4137, M5107, M5115, M5121</TableCell>
+            <TableCell>9401, M4101, M4102, M4108, M4130, M4137, M5107, M5115, M5121</TableCell>
           </tr>
           </tbody>
         </TableBus>
