@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/wedding_invitation/static/css/main.497ba7f0.css",
-    "main.js": "/wedding_invitation/static/js/main.734f4741.js",
+    "main.js": "/wedding_invitation/static/js/main.da4c25a5.js",
     "static/media/BackgroundVideo.mp4": "/wedding_invitation/static/media/BackgroundVideo.d8ef6d6a9c7951a4fd98.mp4",
-    "static/media/Gallery_Photo_4.jpg": "/wedding_invitation/static/media/Gallery_Photo_4.de921c509ed625fae1c2.jpg",
-    "static/media/Gallery_Photo_3.jpg": "/wedding_invitation/static/media/Gallery_Photo_3.2bebe97c05b109787544.jpg",
-    "static/media/Gallery_Photo_1.jpg": "/wedding_invitation/static/media/Gallery_Photo_1.26347e7698a769227550.jpg",
-    "static/media/Gallery_Photo_6.jpg": "/wedding_invitation/static/media/Gallery_Photo_6.fd0a58fb8e03a5078385.jpg",
-    "static/media/Gallery_Photo_5.jpg": "/wedding_invitation/static/media/Gallery_Photo_5.f4bf2c7fcb74c251787e.jpg",
-    "static/media/Gallery_Photo_2.jpg": "/wedding_invitation/static/media/Gallery_Photo_2.2196c817d7518831f01c.jpg",
+    "static/media/Gallery_Photo_1.jpg": "/wedding_invitation/static/media/Gallery_Photo_1.607dedf67469f70dc26e.jpg",
+    "static/media/Gallery_Photo_2.jpg": "/wedding_invitation/static/media/Gallery_Photo_2.ec4cfa9a3cb291dbcb9a.jpg",
+    "static/media/Gallery_Photo_4.jpg": "/wedding_invitation/static/media/Gallery_Photo_4.9dd1bd42dfc0feaec12a.jpg",
+    "static/media/Gallery_Photo_5.jpg": "/wedding_invitation/static/media/Gallery_Photo_5.e3d74ccbc1134f371015.jpg",
+    "static/media/Gallery_Photo_3.jpg": "/wedding_invitation/static/media/Gallery_Photo_3.c6ae9f8d258098d88467.jpg",
     "static/media/GroovePaper.png": "/wedding_invitation/static/media/GroovePaper.33326b07913fac2781bb.png",
     "index.html": "/wedding_invitation/index.html",
     "main.497ba7f0.css.map": "/wedding_invitation/static/css/main.497ba7f0.css.map",
-    "main.734f4741.js.map": "/wedding_invitation/static/js/main.734f4741.js.map"
+    "main.da4c25a5.js.map": "/wedding_invitation/static/js/main.da4c25a5.js.map"
   },
   "entrypoints": [
     "static/css/main.497ba7f0.css",
-    "static/js/main.734f4741.js"
+    "static/js/main.da4c25a5.js"
   ]
 }
