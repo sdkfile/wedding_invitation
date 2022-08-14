@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { WEDDING_DATE, WEDDING_LOCATION, GROOM_NAME, BRIDE_NAME } from '../Config';
+import {BRIDE_NAME, GROOM_NAME, WEDDING_DATE, WEDDING_LOCATION} from '../Config';
 import BackgroundVideo from '../Assets/BackgroundVideo.mp4';
 
 const Layout = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
-  margin: 0px auto;
+  margin: 0 auto;
   position: relative;
 `;
 
@@ -58,7 +58,7 @@ const Title = () => {
   return (
     <Layout>
       <VideoBackground autoPlay loop muted playsInline={true}>
-        <source src={BackgroundVideo} type="video/mp4" />
+        <source src={BackgroundVideo} type="video/mp4"/>
       </VideoBackground>
       <TitleWrapper>
         <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
@@ -67,7 +67,7 @@ const Title = () => {
         </GroomBride>
         <Schedule>
           {WEDDING_DATE}
-          <br />
+          <br/>
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
