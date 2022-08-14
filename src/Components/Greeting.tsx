@@ -45,6 +45,7 @@ const ContentLyrics = styled.p`
 
 const GroomBride = styled.p`
   font-size: 1.75vh;
+  font-weight: bolder;
   line-height: 1.75;
   opacity: 0.85;
   margin-bottom: 0;
@@ -59,15 +60,22 @@ const Greeting = () => {
         <Title>결혼합니다</Title>
       </Divider>
       <Content>
-        서로 마주 보며 다져온 사랑을
+        두 사람이 사랑으로 만나
         <br/>
-        이제 함께 한곳을 바라보며 걸어갈 수 있는
+        진실과 이해로써 하나를 이루려고 합니다.
         <br/>
-        큰 사랑으로 키우고자 합니다.
         <br/>
-        저희 두 사람이 사랑의 이름으로 지켜나갈 수 있게
+        오늘이 있기까지 지성으로 아끼고
         <br/>
-        앞날을 축복해 주시면 감사하겠습니다.
+        보살펴 주신 여러 어른과 친지를 모시고
+        <br/>
+        서약을 맺고자 하오니,
+        <br/>
+        <br/>
+        바쁘신 중에라도 두 사람의 약속을
+        <br/>
+        가까이에서 축복해 주시면 고맙겠습니다.
+
       </Content>
       <GroomBride>
         {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
