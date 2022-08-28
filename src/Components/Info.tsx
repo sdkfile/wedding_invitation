@@ -5,7 +5,7 @@ import GroovePaper from '../Assets/GroovePaper.png';
 
 const Wrapper = styled.div`
   background: #efebe9 url(${GroovePaper});
-  padding-top: 42px;
+  padding-top: 20px;
   padding-left: 42px;
   padding-right: 42px;
   width: 100%;
@@ -27,6 +27,11 @@ const WeddingInfo = styled.p`
   text-align: center;
 `;
 
+const BoldText = styled.p`
+  font-weight: bolder;
+  font-size: 1.75vh;
+`;
+
 const Info = () => {
   return (
     <Wrapper>
@@ -43,11 +48,11 @@ const Info = () => {
         <br/>서브홀에 착석해주시면 감사하겠습니다.
         <br/>
         <br/>
-        축하 화환은 정중히 사양합니다.
-        <br/>
-        좋은 마음만 감사히 받겠습니다.
-        <br/>
-        <br/>
+        <BoldText>
+          축하 화환은 정중히 사양합니다.
+          <br/>
+          마음만 감사히 받겠습니다.
+        </BoldText>
         <br/>
       </WeddingInfo>
     </Wrapper>

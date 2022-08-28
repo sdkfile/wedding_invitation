@@ -5,7 +5,7 @@ import BackgroundVideo from '../Assets/BackgroundVideo.mp4';
 
 const Layout = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
   margin: 0 auto;
   position: relative;

@@ -4,6 +4,7 @@ import './App.css';
 import Title from './Components/Title';
 import Greeting from './Components/Greeting';
 import Gallery from './Components/Gallery';
+import Lyrics from './Components/Lyrics';
 import Info from "./Components/Info";
 import Location from './Components/Location';
 import CongratulatoryMoney from './Components/CongratulatoryMoney';
@@ -23,8 +24,9 @@ const App = () => {
     <>
       <Title/>
       <Greeting/>
-      <Gallery/>
       <Info/>
+      <Gallery/>
+      <Lyrics/>
       <Location/>
       <CongratulatoryMoney/>
       <Share/>
@@ -36,7 +38,7 @@ const App = () => {
           textAlign: 'center',
         }}
       >
-        Copyright © 2021 Seonggu Kim
+        Copyright © 2022 Seonggu Kim
       </Footer>
     </>
   );
