@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/wedding_invitation/static/css/main.497ba7f0.css",
-    "main.js": "/wedding_invitation/static/js/main.e12c5690.js",
+    "main.js": "/wedding_invitation/static/js/main.fd41765f.js",
     "static/media/BackgroundVideo.mp4": "/wedding_invitation/static/media/BackgroundVideo.d8ef6d6a9c7951a4fd98.mp4",
-    "static/media/Gallery_Photo_1.jpg": "/wedding_invitation/static/media/Gallery_Photo_1.607dedf67469f70dc26e.jpg",
-    "static/media/Gallery_Photo_2.jpg": "/wedding_invitation/static/media/Gallery_Photo_2.ec4cfa9a3cb291dbcb9a.jpg",
-    "static/media/Gallery_Photo_4.jpg": "/wedding_invitation/static/media/Gallery_Photo_4.9dd1bd42dfc0feaec12a.jpg",
-    "static/media/Gallery_Photo_5.jpg": "/wedding_invitation/static/media/Gallery_Photo_5.e3d74ccbc1134f371015.jpg",
-    "static/media/Gallery_Photo_3.jpg": "/wedding_invitation/static/media/Gallery_Photo_3.c6ae9f8d258098d88467.jpg",
+    "static/media/Gallery_Photo_5.jpg": "/wedding_invitation/static/media/Gallery_Photo_5.764916a0676daea80626.jpg",
+    "static/media/Gallery_Photo_3.jpg": "/wedding_invitation/static/media/Gallery_Photo_3.7d03c14e967444e96f62.jpg",
+    "static/media/Gallery_Photo_1.jpg": "/wedding_invitation/static/media/Gallery_Photo_1.4bc95f011a5f3d6eb770.jpg",
+    "static/media/Gallery_Photo_4.jpg": "/wedding_invitation/static/media/Gallery_Photo_4.9f3dd20cd39e3415c4ad.jpg",
+    "static/media/Gallery_Photo_2.jpg": "/wedding_invitation/static/media/Gallery_Photo_2.ac45f16383026a79d28d.jpg",
     "static/media/GroovePaper.png": "/wedding_invitation/static/media/GroovePaper.33326b07913fac2781bb.png",
     "index.html": "/wedding_invitation/index.html",
     "main.497ba7f0.css.map": "/wedding_invitation/static/css/main.497ba7f0.css.map",
-    "main.e12c5690.js.map": "/wedding_invitation/static/js/main.e12c5690.js.map"
+    "main.fd41765f.js.map": "/wedding_invitation/static/js/main.fd41765f.js.map"
   },
   "entrypoints": [
     "static/css/main.497ba7f0.css",
-    "static/js/main.e12c5690.js"
+    "static/js/main.fd41765f.js"
   ]
 }
