@@ -2,7 +2,7 @@ export const WEDDING_INVITATION_URL =
   "https://sdkfile.github.io/wedding_invitation/";
 export const KAKAOTALK_API_TOKEN = "c47ecae77336131a752421a673c83445";
 export const KAKAOTALK_SHARE_IMAGE =
-  "https://github.com/sdkfile/wedding_invitation/blob/main/src/Assets/thumbnail_kakao .jpg?raw=true";
+  "https://github.com/sdkfile/wedding_invitation/blob/main/src/Assets/thumbnail_kakao.jpg?raw=true";
 
 export const WEDDING_DATE = "2022년 10월 15일, 토요일 오전 12시 00분";
 export const WEDDING_LOCATION = "로얄호텔 서울, 3층 그랜드볼룸";
