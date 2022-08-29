@@ -1,7 +1,7 @@
-import React from 'react';
-import {Divider} from 'antd';
-import styled from 'styled-components';
-import GroovePaper from '../Assets/GroovePaper.png';
+import React from "react";
+import { Divider } from "antd";
+import styled from "styled-components";
+import GroovePaper from "../Assets/GroovePaper.png";
 
 const Wrapper = styled.div`
   background: #efebe9 url(${GroovePaper});
@@ -36,24 +36,27 @@ const Info = () => {
   return (
     <Wrapper>
       <WeddingInfo>
-        <Divider style={{marginTop: 0, marginBottom: 32}} plain>
-          <Title>식 안내</Title>
+        <Divider style={{ marginTop: 0, marginBottom: 32 }} plain>
+          <Title>예식 안내</Title>
         </Divider>
         좌석 충원을 위하여
-        <br/>메인홀 외 서브홀을 마련하였습니다.
-        <br/>
-        <br/>서브홀에서는 먼저 식사가 제공되오니
-        <br/>식사를 좀더 빠르게 하실 하객 분들께서는
-        <br/>메인홀 만석 시까지 잠시 대기해주신 후
-        <br/>서브홀에 착석해주시면 감사하겠습니다.
-        <br/>
-        <br/>
+        <br />
+        메인홀 외 서브홀을 마련하였습니다.
+        <br />
+        <br />
+        서브홀에서는 먼저 식사가 제공되오니
+        <br />
+        식사를 좀더 빠르게 하실 하객 분들께서는
+        <br />
+        서브홀에 착석해주시면 감사하겠습니다.
+        <br />
+        <br />
         <BoldText>
           축하 화환은 정중히 사양합니다.
-          <br/>
+          <br />
           마음만 감사히 받겠습니다.
         </BoldText>
-        <br/>
+        <br />
       </WeddingInfo>
     </Wrapper>
   );

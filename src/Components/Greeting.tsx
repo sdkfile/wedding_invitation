@@ -1,6 +1,6 @@
-import React from 'react';
-import {Divider} from 'antd';
-import styled from 'styled-components';
+import React from "react";
+import { Divider } from "antd";
+import styled from "styled-components";
 import {
   BRIDE_FATHER_NAME,
   BRIDE_MOTHER_NAME,
@@ -8,8 +8,8 @@ import {
   GROOM_FATHER_NAME,
   GROOM_MOTHER_NAME,
   GROOM_NAME,
-} from '../Config';
-import GroovePaper from '../Assets/GroovePaper.png';
+} from "../Config";
+import GroovePaper from "../Assets/GroovePaper.png";
 
 const Wrapper = styled.div`
   background: #efebe9 url(${GroovePaper});
@@ -48,33 +48,32 @@ const GroomBride = styled.p`
 const Greeting = () => {
   return (
     <Wrapper>
-      <Divider style={{marginTop: 0, marginBottom: 32}} plain>
+      <Divider style={{ marginTop: 0, marginBottom: 32 }} plain>
         <Title>결혼합니다</Title>
       </Divider>
       <Content>
         두 사람이 사랑으로 만나
-        <br/>
+        <br />
         진실과 이해로써 하나를 이루려고 합니다.
-        <br/>
-        <br/>
+        <br />
+        <br />
         오늘이 있기까지 지성으로 아끼고
-        <br/>
+        <br />
         보살펴 주신 여러 어른과 친지를 모시고
-        <br/>
+        <br />
         서약을 맺고자 하오니,
-        <br/>
-        <br/>
+        <br />
+        <br />
         바쁘신 중에라도 두 사람의 약속을
-        <br/>
+        <br />
         가까이에서 축복해 주시면 고맙겠습니다.
-
       </Content>
       <GroomBride>
         {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
-        <br/>
+        <br />
         {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 장녀 {BRIDE_NAME}
-        <br/>
-        <br/>
+        <br />
+        <br />
       </GroomBride>
     </Wrapper>
   );

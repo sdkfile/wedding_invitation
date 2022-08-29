@@ -1,23 +1,23 @@
-import React from 'react';
-import { Button, Divider, message, Modal } from 'antd';
-import { CheckCircleOutlined } from '@ant-design/icons';
-import styled from 'styled-components';
-import CopyToClipboard from 'react-copy-to-clipboard';
+import React from "react";
+import { Button, Divider, message, Modal } from "antd";
+import { CheckCircleOutlined } from "@ant-design/icons";
+import styled from "styled-components";
+import CopyToClipboard from "react-copy-to-clipboard";
 import {
-  GROOM_NAME,
-  GROOM_ACCOUNT_NUMBER,
-  GROOM_FATHER_NAME,
-  GROOM_FATHER_ACCOUNT_NUMBER,
-  GROOM_MOTHER_NAME,
-  GROOM_MOTHER_ACCOUNT_NUMBER,
-  BRIDE_NAME,
   BRIDE_ACCOUNT_NUMBER,
-  BRIDE_FATHER_NAME,
   BRIDE_FATHER_ACCOUNT_NUMBER,
-  BRIDE_MOTHER_NAME,
+  BRIDE_FATHER_NAME,
   BRIDE_MOTHER_ACCOUNT_NUMBER,
-} from '../Config';
-import GroovePaper from '../Assets/GroovePaper.png';
+  BRIDE_MOTHER_NAME,
+  BRIDE_NAME,
+  GROOM_ACCOUNT_NUMBER,
+  GROOM_FATHER_ACCOUNT_NUMBER,
+  GROOM_FATHER_NAME,
+  GROOM_MOTHER_ACCOUNT_NUMBER,
+  GROOM_MOTHER_NAME,
+  GROOM_NAME,
+} from "../Config";
+import GroovePaper from "../Assets/GroovePaper.png";
 
 const Wrapper = styled.div`
   background: #efebe9 url(${GroovePaper});
@@ -75,12 +75,18 @@ const CongratulatoryMoney = () => {
       </Divider>
       <Content>축하의 마음을 담아 축의금을 전달해 보세요.</Content>
       <ContactButton onClick={() => setGroomVisible(true)}>
-        <CheckCircleOutlined style={{ fontSize: 64, marginBottom: 16, color: "#829fe0" }} twoToneColor="#829fe0" />
+        <CheckCircleOutlined
+          style={{ fontSize: 64, marginBottom: 16, color: "#829fe0" }}
+          twoToneColor="#829fe0"
+        />
         <br />
         <SubContent>신랑측 계좌번호 확인</SubContent>
       </ContactButton>
       <ContactButton onClick={() => setBrideVisible(true)}>
-        <CheckCircleOutlined style={{ fontSize: 64, marginBottom: 16, color: "#fe7daf" }} twoToneColor="#fe7daf" />
+        <CheckCircleOutlined
+          style={{ fontSize: 64, marginBottom: 16, color: "#fe7daf" }}
+          twoToneColor="#fe7daf"
+        />
         <br />
         <SubContent>신부측 계좌번호 확인</SubContent>
       </ContactButton>
@@ -89,9 +95,13 @@ const CongratulatoryMoney = () => {
         visible={groomVisible}
         onOk={() => setGroomVisible(false)}
         onCancel={() => setGroomVisible(false)}
-        cancelButtonProps={{ style: { display: 'none' } }}
-        okButtonProps={{ style: { display: 'none' } }}
-        footer={[<Description>계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.</Description>]}
+        cancelButtonProps={{ style: { display: "none" } }}
+        okButtonProps={{ style: { display: "none" } }}
+        footer={[
+          <Description>
+            계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.
+          </Description>,
+        ]}
       >
         <div>
           <b>부) {GROOM_FATHER_NAME}</b>
@@ -100,7 +110,7 @@ const CongratulatoryMoney = () => {
             <Button
               type="text"
               style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success('계좌번호가 복사되었습니다.')}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
             >
               {GROOM_FATHER_ACCOUNT_NUMBER}
             </Button>
@@ -113,7 +123,7 @@ const CongratulatoryMoney = () => {
             <Button
               type="text"
               style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success('계좌번호가 복사되었습니다.')}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
             >
               {GROOM_MOTHER_ACCOUNT_NUMBER}
             </Button>
@@ -126,7 +136,7 @@ const CongratulatoryMoney = () => {
             <Button
               type="text"
               style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success('계좌번호가 복사되었습니다.')}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
             >
               {GROOM_ACCOUNT_NUMBER}
             </Button>
@@ -138,9 +148,13 @@ const CongratulatoryMoney = () => {
         visible={brideVisible}
         onOk={() => setBrideVisible(false)}
         onCancel={() => setBrideVisible(false)}
-        cancelButtonProps={{ style: { display: 'none' } }}
-        okButtonProps={{ style: { display: 'none' } }}
-        footer={[<Description>계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.</Description>]}
+        cancelButtonProps={{ style: { display: "none" } }}
+        okButtonProps={{ style: { display: "none" } }}
+        footer={[
+          <Description>
+            계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.
+          </Description>,
+        ]}
       >
         <div>
           <b>부) {BRIDE_FATHER_NAME}</b>
@@ -149,7 +163,7 @@ const CongratulatoryMoney = () => {
             <Button
               type="text"
               style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success('계좌번호가 복사되었습니다.')}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
             >
               {BRIDE_FATHER_ACCOUNT_NUMBER}
             </Button>
@@ -162,7 +176,7 @@ const CongratulatoryMoney = () => {
             <Button
               type="text"
               style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success('계좌번호가 복사되었습니다.')}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
             >
               {BRIDE_MOTHER_ACCOUNT_NUMBER}
             </Button>
@@ -175,7 +189,7 @@ const CongratulatoryMoney = () => {
             <Button
               type="text"
               style={{ padding: 0, margin: 0 }}
-              onClick={() => message.success('계좌번호가 복사되었습니다.')}
+              onClick={() => message.success("계좌번호가 복사되었습니다.")}
             >
               {BRIDE_ACCOUNT_NUMBER}
             </Button>

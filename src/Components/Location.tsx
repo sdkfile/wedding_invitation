@@ -1,8 +1,9 @@
-import React from 'react';
-import {Button, Divider, Modal} from 'antd';
-import styled from 'styled-components';
-import Map from './Map'
-import GroovePaper from '../Assets/GroovePaper.png';
+import React from "react";
+import { Button, Divider, Modal } from "antd";
+import styled from "styled-components";
+import CSS from "csstype";
+import Map from "./Map";
+import GroovePaper from "../Assets/GroovePaper.png";
 import BusInfo from "./BusInfo";
 
 const Wrapper = styled.div`
@@ -70,42 +71,53 @@ const BusButton = styled(Button)`
     color: #ffffff !important;
   }
 `;
+
+const LinkStyle: CSS.Properties = {
+  color: "navy",
+};
 const Location = () => {
   const [busVisible, setBusVisible] = React.useState<boolean>(false);
 
   return (
     <Wrapper>
-      <Divider plain style={{marginTop: 0, marginBottom: 32}}>
+      <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>오시는 길</Title>
       </Divider>
-      <Map/>
-      <Divider plain style={{marginTop: 0, marginBottom: 32}}>
+      <Map />
+      <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>주차 및 교통편 안내</Title>
       </Divider>
       <Content>
         <SmallTitle>[주차]</SmallTitle>
-        <SmallContent>
-          명동 성당 지하 주차장 이용 (2시간 무료)
-        </SmallContent>
+        <SmallContent>명동 성당 지하 주차장 이용 (2시간 무료)</SmallContent>
         <SmallTitle>[지하철]</SmallTitle>
         <SmallContent>
-          <a href="https://kko.to/uzYyxQVaG">2호선 을지로 입구역 5번 출구</a> (도보&nbsp;6분)
-          <br/><a href="https://kko.to/9De8LMHuw">4호선 명동역 8번</a> (도보&nbsp;6분)
+          <a style={LinkStyle} href="https://kko.to/uzYyxQVaG">
+            2호선 을지로 입구역 5번 출구
+          </a>{" "}
+          (도보&nbsp;6분)
+          <br />
+          <a style={LinkStyle} href="https://kko.to/9De8LMHuw">
+            4호선 명동역 8번
+          </a>{" "}
+          (도보&nbsp;6분)
         </SmallContent>
         <SmallTitle>[버스]</SmallTitle>
         <SmallContent>
           <ContactButton onClick={() => setBusVisible(true)}>
-            <BusButton style={{borderStyle: "initial"}}>버스 이용편 보기</BusButton>
+            <BusButton style={{ borderStyle: "initial" }}>
+              버스 이용편 보기
+            </BusButton>
           </ContactButton>
           <Modal
             title={<b>버스 이용편</b>}
             visible={busVisible}
             onOk={() => setBusVisible(false)}
             onCancel={() => setBusVisible(false)}
-            cancelButtonProps={{style: {display: 'none'}}}
-            okButtonProps={{style: {display: 'none'}}}
+            cancelButtonProps={{ style: { display: "none" } }}
+            okButtonProps={{ style: { display: "none" } }}
           >
-            <BusInfo/>
+            <BusInfo />
           </Modal>
         </SmallContent>
       </Content>

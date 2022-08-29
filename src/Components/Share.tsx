@@ -1,16 +1,16 @@
-import React from 'react';
-import CopyToClipboard from 'react-copy-to-clipboard';
-import { Button, Divider, message } from 'antd';
-import { MessageFilled, LinkOutlined } from '@ant-design/icons';
-import styled from 'styled-components';
+import React from "react";
+import CopyToClipboard from "react-copy-to-clipboard";
+import { Button, Divider, message } from "antd";
+import { LinkOutlined, MessageFilled } from "@ant-design/icons";
+import styled from "styled-components";
 import {
+  BRIDE_NAME,
+  GROOM_NAME,
   KAKAOTALK_API_TOKEN,
   KAKAOTALK_SHARE_IMAGE,
   WEDDING_INVITATION_URL,
-  GROOM_NAME,
-  BRIDE_NAME,
-} from '../Config';
-import GroovePaper from '../Assets/GroovePaper.png';
+} from "../Config";
+import GroovePaper from "../Assets/GroovePaper.png";
 
 const Wrapper = styled.div`
   background: #efebe9 url(${GroovePaper});
@@ -64,11 +64,11 @@ const Share = () => {
   const [shareCount, setShareCount] = React.useState<number>(0);
 
   React.useEffect(() => {
-    const {Kakao} = window;
+    const { Kakao } = window;
     if (shareCount !== 0) {
       Kakao.Link.createDefaultButton({
-        objectType: 'feed',
-        container: '#sendKakao',
+        objectType: "feed",
+        container: "#sendKakao",
         content: {
           title: `${GROOM_NAME}❤${BRIDE_NAME} 결혼식에 초대합니다`,
           description: "아래의 '청첩장 열기' 버튼을 눌러 읽어주세요🤵👰",
@@ -80,7 +80,7 @@ const Share = () => {
         },
         buttons: [
           {
-            title: '청첩장 열기',
+            title: "청첩장 열기",
             link: {
               mobileWebUrl: WEDDING_INVITATION_URL,
               webUrl: WEDDING_INVITATION_URL,
@@ -90,8 +90,8 @@ const Share = () => {
         installTalk: true,
       });
       setTimeout(() => {
-        document.getElementById('sendKakao')?.click();
-        message.success('카카오톡으로 청첩장을 공유합니다!');
+        document.getElementById("sendKakao")?.click();
+        message.success("카카오톡으로 청첩장을 공유합니다!");
       }, 100);
     } else {
       window.Kakao.init(KAKAOTALK_API_TOKEN);
@@ -117,7 +117,7 @@ const Share = () => {
           style={{ margin: 8 }}
           icon={<LinkOutlined />}
           size="large"
-          onClick={() => message.success('청첩장 링크가 복사되었습니다.')}
+          onClick={() => message.success("청첩장 링크가 복사되었습니다.")}
         >
           링크로 공유하기
         </LinkShareButton>
