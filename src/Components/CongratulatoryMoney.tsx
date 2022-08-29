@@ -35,13 +35,6 @@ const Title = styled.p`
   margin-bottom: 0;
 `;
 
-const Content = styled.p`
-  font-size: 1.5vh;
-  line-height: 1.75;
-  opacity: 0.75;
-  margin-bottom: 24px;
-`;
-
 const SubContent = styled.p`
   font-size: 1.3vh;
   line-height: 1.75;
@@ -59,9 +52,7 @@ const Description = styled.p`
 const ContactButton = styled.div`
   display: inline-block;
   text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 24px;
+  margin: 24px 24px 0;
 `;
 
 const CongratulatoryMoney = () => {
@@ -73,7 +64,6 @@ const CongratulatoryMoney = () => {
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>축하의 마음을 전하세요</Title>
       </Divider>
-      <Content>축하의 마음을 담아 축의금을 전달해 보세요.</Content>
       <ContactButton onClick={() => setGroomVisible(true)}>
         <CheckCircleOutlined
           style={{ fontSize: 64, marginBottom: 16, color: "#829fe0" }}
