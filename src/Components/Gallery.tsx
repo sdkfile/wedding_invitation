@@ -7,6 +7,9 @@ import GalleryPhoto2 from "../Assets/Gallery_Photo_2.jpg";
 import GalleryPhoto3 from "../Assets/Gallery_Photo_3.jpg";
 import GalleryPhoto4 from "../Assets/Gallery_Photo_4.jpg";
 import GalleryPhoto5 from "../Assets/Gallery_Photo_5.jpg";
+import GalleryPhoto6 from "../Assets/Gallery_Photo_6.jpg";
+import GalleryPhoto7 from "../Assets/Gallery_Photo_7.jpg";
+import GalleryPhoto8 from "../Assets/Gallery_Photo_8.jpg";
 import GroovePaper from "../Assets/GroovePaper.png";
 
 const Wrapper = styled.div`
@@ -44,6 +47,18 @@ const images = [
   {
     original: GalleryPhoto5,
     thumbnail: GalleryPhoto5,
+  },
+  {
+    original: GalleryPhoto6,
+    thumbnail: GalleryPhoto6,
+  },
+  {
+    original: GalleryPhoto7,
+    thumbnail: GalleryPhoto7,
+  },
+  {
+    original: GalleryPhoto8,
+    thumbnail: GalleryPhoto8,
   },
 ];
 
