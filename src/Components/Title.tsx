@@ -1,4 +1,5 @@
 import React from "react";
+import "./Chevron.css";
 import styled from "styled-components";
 import {
   BRIDE_NAME,
@@ -58,7 +59,6 @@ const Schedule = styled.p`
   opacity: 0.65;
   margin-bottom: 24px;
 `;
-
 const Title = () => {
   return (
     <Layout>
@@ -76,6 +76,13 @@ const Title = () => {
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
+      <div className={"conconcon"}>
+        <div className={"container"}>
+          <div className={"chevron"} />
+          <div className={"chevron"} />
+          <div className={"chevron"} />
+        </div>
+      </div>
     </Layout>
   );
 };
